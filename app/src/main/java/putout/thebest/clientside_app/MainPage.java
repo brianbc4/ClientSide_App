@@ -49,6 +49,7 @@ TextView Deliver,Return,ExchangeMiss;
             public void onClick(View view) {
                 Deliver.setTextColor(Color.parseColor("#303f9f"));
                 Return.setTextColor(Color.parseColor("#303f9f"));
+                
                 ExchangeMiss.setTextColor(Color.parseColor("#669900"));
             }
         });
