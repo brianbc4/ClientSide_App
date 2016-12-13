@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8.5"
+        android:weightSum="2">
+
+        <TextView
+            android:text="資料蒐尋"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:background="@color/crazymike"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cm_gray"
+            android:weightSum="3">
+
+            <TextView
+                android:text="出貨資料"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Deliver"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:text="換貨缺件資料"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Return"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:text="退貨資料"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ExchangeMiss"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:id="@+id/item_list"
+        />
+
+</LinearLayout>
