@@ -81,7 +81,8 @@
                     android:id="@+id/user"
                     android:layout_weight="3"
                     android:ems="10"
-                    android:layout_marginRight="30dp" />
+                    android:layout_marginRight="30dp"
+                    android:text="47224017" />
 
             </LinearLayout>
 
@@ -108,7 +109,8 @@
                     android:layout_weight="3"
                     android:ems="10"
                     android:layout_marginRight="30dp"
-                    android:id="@+id/pass" />
+                    android:id="@+id/pass"
+                    android:text="a47224017" />
             </LinearLayout>
 
             <LinearLayout
@@ -134,7 +136,8 @@
                     android:layout_weight="3"
                     android:ems="10"
                     android:layout_marginRight="30dp"
-                    android:id="@+id/id" />
+                    android:id="@+id/id"
+                    android:text="b1168" />
             </LinearLayout>
         </LinearLayout>
 
