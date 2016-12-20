@@ -25,7 +25,7 @@
             android:background="@color/crazymike"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="17sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -46,7 +46,7 @@
                 android:textColor="@android:color/holo_green_dark" />
 
             <TextView
-                android:text="換貨缺件資料"
+                android:text="退貨資料"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/Return"
@@ -56,7 +56,7 @@
                 android:textColor="@color/colorPrimaryDark" />
 
             <TextView
-                android:text="退貨資料"
+                android:text="換貨缺件資料"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/ExchangeMiss"
